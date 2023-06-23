@@ -113,7 +113,7 @@ h1 {
   color: #727272;
 }
 
-main#link {
+div#link {
   height: 1100px;
 }
 
@@ -193,6 +193,8 @@ a:hover {
   font-size: 12 px;
   cursor: pointer;
   transition: all 250ms;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .link_button:hover {
